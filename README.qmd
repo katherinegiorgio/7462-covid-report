@@ -66,7 +66,7 @@ rate_data %>%
   ylab("7-day COVID-19 case total per 100,000 population") +
   scale_color_discrete(name = "") +
   theme_minimal() +
-  ggtitle("COVID-19 rates for the ten most populous Minnesota counties", 
+  ggtitle("Hi Katherine!!! COVID-19 rates for the ten most populous Minnesota counties", 
           subtitle = paste("Latest data:", max(rate_data$date)))
 ```
 
