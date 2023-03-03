@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-03 17:49:11
+Report last run: 2023-03-03 21:37:01
 
 ## Introduction
 
@@ -61,7 +61,7 @@ rate_data %>%
   ylab("7-day COVID-19 case total per 100,000 population") +
   scale_color_discrete(name = "") +
   theme_minimal() +
-  ggtitle("COVID-19 rates for the ten most populous Minnesota counties", 
+  ggtitle("Hi Katherine!!! COVID-19 rates for the ten most populous Minnesota counties", 
           subtitle = paste("Latest data:", max(rate_data$date)))
 ```
 
